@@ -8,7 +8,7 @@ $telefono = $_POST["telefono_txt"];
 $pais = $_POST["pais_slc"];
 
 //Dependiendo el sexo colocamos una imagen generica
-$imagen_generica = ($sexo=="M")?"img/fotos/amigo.png":"img/fotos/amiga.png";
+$imagen_generica = ($sexo=="M")?"amigo.png":"amiga.png";
 
 //Verificamos que no exista previamente el email del usuario de la BD
 include("conexion.php");
